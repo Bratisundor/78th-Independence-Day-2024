@@ -1,0 +1,66 @@
+body {
+    background-color: lightblue;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.Flag1
+{
+    margin-top: 5%;
+    margin-left: 44.7%;
+    margin-bottom:13% ;
+    height : 250px;
+    width: 350px;
+    position: relative;
+}
+.Pole1
+{
+position: relative;
+height: 630px;
+width: 300px;
+margin-top: -30%;
+margin-left: 35%;
+}
+.Flag h1{
+    text-align: center;
+    font-size: 70px;
+    animation: anim 10s infinite;
+}
+@keyframes anim 
+{
+ 0%
+ {
+    color: orange;
+ }   
+ 20%
+ {
+    color: gray;
+ }   
+ 40%
+ {
+    color: blue;
+ }   
+ 60%
+ {
+    color: yellowgreen;
+ }   
+ 80%
+ {
+    color: lightgoldenrodyellow;
+ }   
+ 100%
+ {
+    color: green;
+ }   
+}
+.h4 h2{
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+   -webkit-background-clip: text;
+   color: transparent;
+}
